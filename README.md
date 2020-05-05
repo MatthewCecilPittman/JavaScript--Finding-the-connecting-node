@@ -56,7 +56,7 @@ count++;
 currentNode = currentNode.next;
 }
 let prevNode = currentNode;
-let neextNode = prevNode.next;
+let nextNode = prevNode.next;
 let newNode = new ListNode(data, nextNode);
 prevNode.next = newNode;
 this._length++;
