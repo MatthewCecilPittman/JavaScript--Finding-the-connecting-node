@@ -43,7 +43,7 @@ currentNode.next = new ListNode(data);
 this._length++;
 return this.head;
 }
-insertNodeeAtMiddle = (data, index) => {
+insertNodeAtMiddle = (data, index) => {
 if (
 index !== 0 &&
 index !== this._length &&
@@ -149,7 +149,6 @@ currentNode = currentNode.next;
 let lastNode = currentNode;
 return lastNode;
 }
-
 
 
 ```
